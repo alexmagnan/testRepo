@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         pressButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Toast.makeText(MainActivity.this, "A Toast",Toast.LENGTH_LONG);
+                    Toast.makeText(MainActivity.this, "A Toast",Toast.LENGTH_LONG).show();
 
             }
         });
